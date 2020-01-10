@@ -13,4 +13,4 @@
  * HC-05 Bluetooth module 
  
  
-[Pinout included inphaseone code](https://github.com/Mrrobi/Home-Auto/tree/master/Phase_one)
+[Pinout included in phaseone code](https://github.com/Mrrobi/Home-Auto/tree/master/Phase_one)

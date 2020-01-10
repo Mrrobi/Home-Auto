@@ -7,7 +7,7 @@
   * All three phases connected to each other and work syncronizly using bluetooth data transfer between them
 
 
-##Phase One Machine
+## Phase One Machine
  *Arduino Nano
  *RFID RC522
  *HC-05 Bluetooth module

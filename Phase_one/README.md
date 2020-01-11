@@ -7,4 +7,4 @@
  
  
 <img src="https://github.com/Mrrobi/Home-Auto/blob/master/Phase_one/WhatsApp%20Image%202020-01-11%20at%2011.43.46%20AM%20(1).jpeg" width="30%">
-![Image 2](https://github.com/Mrrobi/Home-Auto/blob/master/Phase_one/WhatsApp%20Image%202020-01-11%20at%2011.43.46%20AM.jpeg)
+<img src="https://github.com/Mrrobi/Home-Auto/blob/master/Phase_one/WhatsApp%20Image%202020-01-11%20at%2011.43.46%20AM.jpeg" width="30%">

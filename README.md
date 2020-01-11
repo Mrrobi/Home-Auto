@@ -22,4 +22,4 @@
  * NodeMCU ESP8266MOD[WIFI]
  * Bylnk Android App
 
-You just have to connect NodeMCU with the Bylnk app via [Bylnk](https://blynk.io/) <img src="https://static.tildacdn.com/tild3830-6364-4266-a638-356563636132/Blynk_logo_diamond.png" width="10%"> Secure cloud 
+You just have to connect NodeMCU with the Bylnk app via [<img src="https://static.tildacdn.com/tild3830-6364-4266-a638-356563636132/Blynk_logo_diamond.png" width="10%">](https://blynk.io/)  Secure cloud 

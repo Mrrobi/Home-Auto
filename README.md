@@ -20,6 +20,6 @@
 
 ## Phase Two Machine
  * NodeMCU ESP8266MOD[WIFI]
- * Bylnk Android App
+ * [<img src="https://static.tildacdn.com/tild3830-6364-4266-a638-356563636132/Blynk_logo_diamond.png" width="10%">](https://blynk.io/) Android App
 
-You just have to connect NodeMCU with the Bylnk app via   [<img src="https://static.tildacdn.com/tild3830-6364-4266-a638-356563636132/Blynk_logo_diamond.png" width="10%">](https://blynk.io/)    Secure cloud 
+You just have to connect NodeMCU with the [<img src="https://static.tildacdn.com/tild3830-6364-4266-a638-356563636132/Blynk_logo_diamond.png" width="10%">](https://blynk.io/) app via   [<img src="https://static.tildacdn.com/tild3830-6364-4266-a638-356563636132/Blynk_logo_diamond.png" width="10%">](https://blynk.io/)    Secure cloud 

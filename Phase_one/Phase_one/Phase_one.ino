@@ -86,13 +86,13 @@ void loop()
   if(msg!=""){
     if(msg[0]=='o'){
       //Serial.println(msg);
-      doorlock.write(0); // Changing doorlock close to open
-      ArduinoMaster.print("done"); //Sending confirmation into Phase Three machine..
+      if(doorlock.read()==90) doorlock.write(0); // Changing doorlock close to open
+      ArduinoMaster.print("open"); //Sending confirmation into Phase Three machine..
       msg="";
     }else if(msg[0]=='c'){
       //Serial.println(msg);
-      doorlock.write(90); // Changing door lock open to close
-      ArduinoMaster.print("done"); //Sending confirmation into Phase Three machine..
+      if(doorlock.read()==0) doorlock.write(90); // Changing door lock open to close
+      ArduinoMaster.print("close"); //Sending confirmation into Phase Three machine..
       msg="";
     }
   }

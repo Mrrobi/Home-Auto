@@ -42,7 +42,7 @@ Servo doorlock;
 
 void setup()
 { 
-  Serial.begin(9600);
+  Serial.begin(38400);
   /* Enable Bluetooth module to comunicate*/
   ArduinoMaster.begin(9600);
   /* Enable the SPI interface */
@@ -57,10 +57,6 @@ void setup()
 void loop()
 {
   readSerialPort(); // Consitantly checking incoming text from Phase Three machine.
-  /* Temporary loop counter */
-  byte i=0;
-  byte j=0;
-  byte k=0;
   int ID;
 
   /* Has a card been detected? */
@@ -71,6 +67,7 @@ void loop()
     /* Output the serial number to the UART */
     ID=RC522.serNum[0];
     Serial.println(ID);
+    
     /*Matching with existing card*/
     if(ID == 16){
       if(doorlock.read()==0) doorlock.write(90); // Changing door lock open to close
@@ -82,18 +79,22 @@ void loop()
       else if(doorlock.read()==90) doorlock.write(0); // Changing doorlock close to open
       else doorlock.write(0); //Default case open 
     }
+    delay(1000);
   }
-  delay(1000);
+  
 
   if(msg!=""){
-    if(msg=="open"){
+    if(msg[0]=='o'){
+      //Serial.println(msg);
       doorlock.write(0); // Changing doorlock close to open
       ArduinoMaster.print("done"); //Sending confirmation into Phase Three machine..
-    }else if(msg=="close"){
+      msg="";
+    }else if(msg[0]=='c'){
+      //Serial.println(msg);
       doorlock.write(90); // Changing door lock open to close
       ArduinoMaster.print("done"); //Sending confirmation into Phase Three machine..
+      msg="";
     }
-    msg="";
   }
   
   

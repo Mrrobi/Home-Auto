@@ -10,7 +10,8 @@
 ## Phase One Machine
  * Arduino Nano
  * RFID RC522
- * HC-05 Bluetooth module 
+ * HC-05 Bluetooth module
+ * Tower Pro MG996R Servo
  
  
 [Pinout included in phaseone code](https://github.com/Mrrobi/Home-Auto/tree/master/Phase_one)
